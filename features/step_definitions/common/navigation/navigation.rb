@@ -1,4 +1,3 @@
-require_relative '../support/world.rb'
 urls = Project.new.urls
 
 # Page Object Model standards are included here
