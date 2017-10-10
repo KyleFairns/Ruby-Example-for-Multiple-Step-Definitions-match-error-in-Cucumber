@@ -23,7 +23,7 @@ Pages.class_eval do
     end
 
     # Checks for a result
-    def find_result?
+    def find_result
       driver = get_driver
       result = driver.find_element(elements[:result])
       wait = Selenium::WebDriver::Wait.new(:timeout => 10)
