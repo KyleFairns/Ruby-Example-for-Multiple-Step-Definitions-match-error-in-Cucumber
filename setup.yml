@@ -1,0 +1,9 @@
+project: "Directory Setup Example"
+
+profile: "chrome"
+
+profiles:
+  chrome:
+    base_url: "https://www.google.com"
+    browser:
+      name: "chrome"
