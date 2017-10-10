@@ -22,7 +22,7 @@ Pages.class_eval do
       search.send_keys(:enter)
     end
 
-    # Checks for a result, and returns a Boolean
+    # Checks for a result
     def find_result?
       driver = get_driver
       result = driver.find_element(elements[:result])
